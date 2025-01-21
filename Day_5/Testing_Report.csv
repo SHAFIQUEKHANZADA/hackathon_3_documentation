@@ -1,0 +1,7 @@
+Test Cases ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severty Level,Assigned to,Remarks
+TC001,Validate Product listing page,Open Product page> verify,Product displayed correctly,Product displayed correctly,Passed,High,-,No issues found
+TC002,Test Api Error handling,Disconect api> refresh page,Show fallback UI with error message,Show fallback UI with error message,Paased,High,-,Handle successfully
+TC003,Check Cart functionality,Add product to cart > verify,Card updates with products,same as expected,Passed,High,-,works as expected
+TC004,Ensure responsiveness on mobile,Resize browser window > Verify,100% responsive and adoptable,100% same as expected,Passed,High,-,Successful
+TC005,Authentication,signup > create account > login,"100% user can login signup, verifyemail",same as expected,Passed,High,-,Successful
+TC006,Search products,search > result,show products on keywords and tags,products showing accordingly,Passed,Medium,-,works perfectly
